@@ -1,0 +1,280 @@
+LinkedIn Course: A Standalone Project: Perform Data Analytics to Find Trends through Visualization
+
+Project brief
+In this skill-building project, you will analyze real-world data from Airbnb, identify trends from the data, and use data visualization techniques to present your findings. The project is designed to be completed in approximately eight hours.
+
+Airbnb is an online marketplace that connects people looking for affordable, short-term accommodations with hosts offering their properties for rent. Operating in numerous locations worldwide, Airbnb has become a popular choice for those seeking a home-like stay at a more affordable price point than hotels. 
+
+This project focuses on analyzing data from Airbnb to gain insights into pricing trends, location-based variations, and other factors influencing Airbnb listings. Your tasks will include data loading, data cleaning, data transformation, exploratory data analysis, and data visualization. Building on your existing knowledge of data analytics, you will progress through a structured series of steps that guide you from initial data cleaning to detailed analysis and visualization. 
+
+As you progress, you will:
+
+• Clean and preprocess Airbnb data to prepare it for analysis.
+• Analyze trends in Airbnb listings based on factors such as pricing, location, and property type.
+• Apply data visualization techniques to communicate trends and insights effectively.
+• Summarize the impact of factors like location, amenities, and guest reviews on booking trends.
+
+By completing this project, you will gain hands-on experience in analyzing data and extracting meaningful insights, just as you would in a real-world business environment. You can showcase this project in your portfolio to highlight your data analysis and visualization skills. It is a great way to strengthen your profile.
+
+**Skills summary
+
+*Key skills:
+• Data handling and manipulation
+• Exploratory data analysis
+• Data preprocessing
+• Data visualization
+• Trend identification and interpretation
+• Employability skills
+
+**Skill application
+
+You will gain experience in performing tasks such as:
+
+• Loading and understanding the structure of the dataset, including its features and key variables
+• Preprocessing the dataset by handling missing values, transforming data as needed, and preparing it for analysis and visualization
+• Conducting exploratory data analysis and identifying key insights from the data and presenting them using clear and impactful visualizations
+• Summarizing key findings from the project, discussing the implications for business decision-making, and documenting your analysis professionally
+
+In addition to technical skills, you will have practiced employability skills such as:
+
+• Analytical thinking
+• Attention to detail
+• Critical thinking
+• Communication
+• Learning agility
+• Problem-solving 
+
+**Prerequisite knowledge
+
+Before starting this project, you should have a foundational understanding of key concepts and tools related to data analytics and visualization. Specifically, you should be familiar with the following:
+
+*Data concepts: A good understanding of fundamental data concepts such as data types (e.g., numeric, categorical), data cleaning, and data storage is essential.
+
+*Python programming: You should be comfortable with basic Python syntax, including variables, loops, conditionals, and functions. You should also have experience with libraries such as Pandas, NumPy, Matplotlib, and Seaborn.
+
+*Data analysis principles: A solid understanding of data analysis principles, including introductory statistical methods, will help you in analyzing and interpreting datasets effectively.
+
+*Data visualization: Familiarity with data visualization techniques is crucial for presenting insights clearly. Knowledge of tools like Tableau and Power BI is not mandatory but can enhance your ability to present insights interactively.
+
+*Relational databases and SQL: An introductory understanding of relational database management systems (RDBMS) and how to query databases using SQL is important.
+
+If you are not fully confident in any of these areas, you can review relevant resources or take a foundational course on the topic before proceeding with the project. This will ensure you have the necessary knowledge to complete the tasks successfully.
+
+
+**System and software requirements
+
+To complete this project, you will need the following system and software:
+
+*Operating system:
+Windows, macOS, or Linux
+
+*Software:
+• Python: Version 3.7 or higher
+• Microsoft Excel, Google Sheets, Tableau, Power BI, or SQL-based tools
+
+*IDE/Environment:
+• Jupyter Notebooks, JupyterLab, or Visual Studio (VS) Code with Python extension (for interactive coding)
+• Google Colab (as an alternative IDE)
+
+*Libraries:
+• Pandas (for data manipulation)
+• Matplotlib (for plotting and visualization)
+• Seaborn (for statistical data visualization)
+• NumPy (for numerical computations) 
+
+*Database:
+• SQLite (or any SQL database of your choice)
+
+**Documenting your project
+
+As you work through the project tasks, you may want to document your work to demonstrate your skills across all of the tasks. You can create your own document or use the Project Documentation Template provided in the Exercise Files link. This template will help ensure you don’t miss any of the key steps. It will save you time and give you a clear structure to follow as you complete the project.
+
+To document your work:
+
+• Take a screenshot of your code at each step outlined in the Project Tasks section. If a step produces visible results (such as a Display step), include a screenshot of the output as well. 
+• Insert these screenshots into a Word document, documenting your work step by step. Once you have completed all the tasks, save the Word document.
+
+When the project is complete, you will refer to this document to evaluate your project.
+
+**Self-evaluating your own project
+
+In the Wrap-Up chapter at the end of the course, you will find a sample solution for the project. This example is designed to help you assess your own work. By reviewing it alongside your project documentation, you can check whether you covered the key steps and addressed the problem effectively. Use this comparison as a learning opportunity to fine-tune your approach.
+
+**(Optional) Project evaluation with SkillUp
+
+You may submit your project for an optional evaluation by SkillUp.
+
+Please note: Submitting your project for evaluation by SkillUp is not required to complete this course. Participation is voluntary. The evaluation is made available by SkillUp, not LinkedIn Learning. Any questions about submitting your content for evaluation or the feedback you receive should be directed to SkillUp.
+
+If you submit your project to SkillUp, you will receive:
+
+• An evaluation of your project work and expert feedback
+• 1:1 mentoring to strengthen your final submission
+• An industry-recognized SkillUp certificate to validate your hands-on project experience (for successful submissions only)
+
+Learn more about project evaluation on SkillUp
+
+Note: Accessing this option will open a new browser tab with more information. You can return to this course at any time.
+
+
+**About the dataset
+
+This project uses the Airbnb Open Data dataset, which contains information about Airbnb listings. It includes information such as host details, neighborhood and location information, property characteristics (e.g., room type, price, availability), review scores, service fees, cancellation policies, and house rules.
+
+The dataset is provided in CSV format and is intended for analyzing Airbnb data to extract meaningful insights.
+
+You can access and download the dataset from the following Kaggle link: https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata 
+
+**Business goals
+
+Imagine you are a data analyst at Airbnb.  Your role is to analyze property listings to help the company better understand its offerings and enhance its services. Your focus is on the following business goals:
+
+Pricing optimization: Identify trends in neighborhood pricing and room types to help Airbnb and hosts adjust rates for maximum profitability.
+
+Service improvement: Identify factors such as cancellation policy, reviews, and cleaning fees that affect host performance.
+
+**Project hint document
+
+A hint document has been compiled to support your work on this project. The hints are designed to help you navigate complex steps, avoid common pitfalls, and stay aligned with project objectives.
+
+For the best learning experience, try completing the tasks independently before turning to the hint document.
+
+If needed, you can access and download the Project hint document from the Exercise Files link.
+
+**Task 0: Framing the project
+
+Objective: In this task, you will frame the project by documenting the problem you are solving, its context, and key project details in your own words. 
+
+(Remember to include the responses in your Project documentation file.)
+
+Step 1
+Briefly describe the problem this project is addressing. Use your own words to summarize the issue being solved.
+
+Step 2
+State the main outcome you aim to achieve through this project.
+
+Step 3
+Describe the dataset, its source, and the type of data it contains.
+
+Step 4
+Explain who is affected by this problem and why the solution matters.
+
+Step 5
+List the tools, libraries, and technologies you plan to use.
+
+**Task 1: Loading the dataset
+
+Objective: In this task, you will set up your data environment. You will load and assess the structure of the dataset to ensure the data is ready for analysis. Use Python to complete this task. 
+
+(Remember to take screenshots of both the code and the output at each step and add them to your Project documentation file.)
+
+Step 1
+Read the CSV file and load it into a pandas DataFrame.
+
+Step 2
+Display the first five rows of the dataset to understand the data format.
+
+Step 3
+Display the data types of each column to understand the nature of each variable and identify any potential issues with data types.
+
+**Task 2: Removing unnecessary fields
+
+Objective: In this task, you will clean the dataset by removing irrelevant or unnecessary fields that could impact the accuracy of the analysis. You can use a tool of your choice to perform this task.
+
+(Remember to take screenshots of both the code and the output at each step and add them to your Project documentation file.)
+
+Step 1
+Remove the following unwanted columns from the dataset: host id, id, country, and country code. Be sure to include screenshots of the dataset before and after eliminating these columns.
+
+Step 2
+Document the reason for excluding these columns from your data analysis in your project documentation. This will demonstrate your ability to distinguish between relevant and irrelevant data.
+
+**Task 3: Handling missing values and duplicate records
+
+Objective: In this task, you will handle missing values and duplicate records to improve the quality and reliability of the dataset before analysis. Use Python to complete this task.
+
+(Remember to take screenshots of both the code and the output at each step and add them to your Project documentation file.)
+
+Step 1
+Identify missing values in the dataframe and display their count in ascending order. If any values are missing, impute them according to the data type of the columns.
+
+Step 2
+Check whether there are any duplicate values in the dataframe and if present, remove them.
+
+Step 3
+Display the total number of records in the dataframe before and after removing the duplicates to confirm that data cleaning has been effectively performed.
+
+**Task 4: Transforming data
+
+Objective: In this task, you will standardize and transform the data to ensure consistency in your analysis. You can use a tool of your choice to perform this task.
+
+(Remember to take screenshots of both the code and the output at each step and add them to your Project documentation file.)
+
+Step 1
+Rename the column availability 365 to days_booked to make the column name more intuitive and business-friendly.
+
+Step 2
+Convert all column names to lowercase and replace the spaces in the column names with an underscore symbol.
+
+Step 3
+Remove the dollar sign and comma from the columns price and service_fee. If necessary, convert these two columns to the appropriate data type. This is to ensure that financial data can be analyzed correctly.
+
+**Task 5: Exploring data
+
+Objective: In this task, you will perform exploratory data analysis to identify meaningful trends that can answer business questions. You can use a tool of your choice to perform this task.
+
+(Remember to take screenshots of both the code and the output at each step and add them to your Project documentation file.)
+
+Step 1 
+Display the count of various room types available in the dataset.
+
+Step 2
+Display the room type with the strictest cancellation policy. In your project documentation, describe the risk factors for both hosts and guests.
+
+Step 3
+Display the average price per neighborhood group. In your project documentation, mention the most expensive neighborhood for rentals. This will help Airbnb understand pricing patterns and identify premium areas.
+
+**Task 6: Visualizing data, part 1
+
+Objective: In this task, you will create visualizations to effectively communicate key findings and trends. This task focuses on visualizing price distribution and location/type-based comparisons.
+
+You can use a tool of your choice to perform this task.
+
+(Remember to take screenshots of both the code and the output at each step and add them to your Project documentation file.)
+
+Step 1
+Create a horizontal bar chart to display the top 10 most expensive neighborhoods in the dataset. Create another chart with the 10 least expensive neighborhoods in the dataset.
+
+Step 2
+Create a box and whisker chart that showcases the price distribution of all listings split by room type to understand how prices vary within different accommodation categories.
+
+**Task 7: Visualizing data, part 2
+
+Objective: In this task, you will create visualizations that highlight relationships between different factors, like cleaning fees and room prices. This task explores trends and correlations.
+
+You can use a tool of your choice to perform this task. 
+
+(Remember to take screenshots of both the code and the output at each step and add them to your Project documentation file.)
+
+Step 1
+Create a scatter plot to illustrate the relationship between the cleaning fee and room price. Note any correlation in your project documentation and comment whether cleaning fees influence pricing strategies.
+
+Step 2
+Create a line chart to showcase the total amount of listings available per year.
+
+**Task 8: Visualizing data, part 3
+
+Objective: In this task, you will analyze host performance by comparing Superhosts and regular hosts to identify what makes a successful host. This task focuses on qualitative metrics like reviews and host-specific performance.
+
+You can use a tool of your choice to perform this task.
+
+(Remember to take screenshots of both the code and the output at each step and add them to your Project documentation file.)
+
+Step 1
+Create a data visualization of your choice using one of the review columns in isolation or combination with another column. 
+
+Step 2
+Create a visualization to compare at least two different variables between Superhosts and regular hosts. Identify the performance differences between highly-rated and average hosts and document your findings in your project documentation.
+
+Well done! You have completed the last task of this project.
+
